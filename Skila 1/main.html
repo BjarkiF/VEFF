@@ -3,33 +3,83 @@
   <head>
     <meta charset="UTF-8">
     <title>VEFF Project 1</title>
+    <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova|Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
     <header>
-      <p>
-        <span>
+      <div id="hireFire">
+        <span id="hire">
           <a href="" target="_self">Hire</a>
         </span>
-        <span>
+        <span id="fire">
           <a href="" target="_self">Fire</a>
         </span>
-        </p>
-      <form action="main.html" method="post">
-        <input type="text" placeholder="Search Person..." name="search">
+        </div>
+      <br>
+      <form action="main.html" method="post" id="searchBar">
+          <input type="text" placeholder="Search Person..." name="search">
         <input type="submit" onclick="do()" value="Search">
       </form>
+      <br>
     </header>
     <br>
-    <div>
-      <span>
-        <img src="pers1.png" alt="Person 1">
-        <p>Person 1</p>
+    <div id="wrapper">
+    <div id="p1">
+      <span id="p10">
+        <img src="pers1.png" alt="Pete"><br>
+        Pete
       </span>
-      <span>
-        <p> Role: Accountant<br>
-            Department: Finance<br>
-            Joined: Jan 2005</p>
+      <span id="p11">
+        Role: Accountant<br>
+        Department: Finance<br>
+        Joined: Jan 2005
       </span>
+    </div>
+    <div id="p2">
+      <div>
+        <img src="pers2.png" alt="Stacy">
+        <p>Stacy</p>
+      </div>
+      <div>
+        <p> Role: Team Lead<br>
+            Department: Tech<br>
+            Joined: Dec 2008</p>
+      </div>
+    </div>
+    <div id="p3">
+      <div>
+        <img src="pers3.png" alt="John">
+        <p>John</p>
+      </div>
+      <div>
+        <p> Role: Admin<br>
+            Department: IT Support<br>
+            Joined: Apr 2018</p>
+      </div>
+    </div>
+    <div id="p4">
+      <div>
+        <img src="pers4.png" alt="Hans">
+        <p>Hans</p>
+      </div>
+      <div>
+        <p> Role: Developer<br>
+            Department: Tech<br>
+            Joined: Dec 2015</p>
+      </div>
+    </div>
+    <div id="p5">
+      <div>
+        <img src="pers5.png" alt="Janet">
+        <p>Janet</p>
+      </div>
+      <div>
+        <p> Role: Project Lead<br>
+            Department: Management<br>
+            Joined: Mar 2002</p>
+      </div>
+    </div>
     </div>
 
   <footer>
