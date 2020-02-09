@@ -1,0 +1,40 @@
+☰
+Hire
+Fire
+Search Person..
+Search
+
+Pete
+Role: Accountant
+Department: Finance
+Joined: Jan 2005
+
+Stacy
+Role: Team lead
+Department: Tech
+Joined: Dec 2008
+
+John
+Role: Admin
+Department: IT Support
+Joined: Apr 2018
+
+Hans
+Role: Developer
+Department: Tech
+Joined: Dec 2015
+
+Janet
+Role: Project Lead
+Department: Management
+Joined: Mar 2002
+
+ABOUT US
+Staff Inc. is dedicated to making your management life easier! All your employees' details on a single screen. Hiring, firing, retiring - just a click away.
+
+CONTACT
+Staff Inc.
+Industrial Ave 201
+1102 Down Town
+Tel: 001 555 444 12
+contact@staff.inc
