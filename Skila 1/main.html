@@ -8,91 +8,93 @@
   </head>
   <body>
     <header>
-      <div id="hireFire">
+      <div id="Head">
         <span id="hire">
           <a href="" target="_self">Hire</a>
         </span>
         <span id="fire">
           <a href="" target="_self">Fire</a>
         </span>
-        </div>
-      <br>
+      <br><br>
       <form action="main.html" method="post" id="searchBar">
           <input type="text" placeholder="Search Person..." name="search">
         <input type="submit" onclick="do()" value="Search">
       </form>
+      </div>
       <br>
     </header>
     <br>
-    <div id="wrapper">
-    <div id="p1">
-      <span id="p10">
-        <img src="pers1.png" alt="Pete"><br>
-        Pete
-      </span>
-      <span id="p11">
-        Role: Accountant<br>
-        Department: Finance<br>
-        Joined: Jan 2005
-      </span>
+    <div id="p1" class="person">
+      <div class="personBlock1">
+        <img src="pers1.png" alt="Pete" class="pic"><br>
+        Pete<br>
+      </div>
+      <div class="personBlock2">
+        <p class="personText"><strong>Role:</strong> Accountant<br><br>
+                              <strong>Department:</strong> Finance<br><br>
+                              <strong>Joined:</strong> 2005</p>
+      </div>
     </div>
-    <div id="p2">
-      <div>
-        <img src="pers2.png" alt="Stacy">
+    <div id="p2" class="person">
+      <div class="personBlock1">
+        <img src="pers2.png" alt="Stacy" class="pic">
         <p>Stacy</p>
       </div>
-      <div>
-        <p> Role: Team Lead<br>
-            Department: Tech<br>
-            Joined: Dec 2008</p>
+      <div class="personBlock2">
+        <p class="personText"> <strong>Role:</strong> Team Lead<br><br>
+            <strong>Department:</strong> Tech<br><br>
+            <strong>Joined:</strong> Dec 2008</p>
       </div>
     </div>
-    <div id="p3">
-      <div>
-        <img src="pers3.png" alt="John">
+    <div id="p3" class="person">
+      <div class="personBlock1">
+        <img src="pers3.png" alt="John" class="pic">
         <p>John</p>
       </div>
-      <div>
-        <p> Role: Admin<br>
-            Department: IT Support<br>
-            Joined: Apr 2018</p>
+      <div class="personBlock2">
+        <p> <strong>Role:</strong> Admin<br><br>
+            <strong>Department:</strong> IT Support<br><br>
+            <strong>Joined:</strong> Apr 2018</p>
       </div>
     </div>
-    <div id="p4">
-      <div>
-        <img src="pers4.png" alt="Hans">
+    <div id="p4" class="person">
+      <div class="personBlock1">
+        <img src="pers4.png" alt="Hans" class="pic">
         <p>Hans</p>
       </div>
-      <div>
-        <p> Role: Developer<br>
-            Department: Tech<br>
-            Joined: Dec 2015</p>
+      <div class="personBlock2">
+        <p> <strong>Role:</strong> Developer<br><br>
+            <strong>Department:</strong> Tech<br><br>
+            <strong>Joined:</strong> Dec 2015</p>
       </div>
     </div>
-    <div id="p5">
-      <div>
-        <img src="pers5.png" alt="Janet">
+    <div id="p5" class="person">
+      <div class="personBlock1">
+        <img src="pers5.png" alt="Janet" class="pic">
         <p>Janet</p>
       </div>
-      <div>
-        <p> Role: Project Lead<br>
-            Department: Management<br>
-            Joined: Mar 2002</p>
+      <div class="personBlock2">
+        <p> <strong>Role:</strong> Project Lead<br><br>
+            <strong>Department:</strong> Management<br><br>
+            <strong>Joined:</strong> Mar 2002</p>
       </div>
-    </div>
     </div>
 
   <footer>
+    <div id="about">
     <h2>ABOUT US</h2>
     <p>Staff Inc. is dedicated to making your management life easier!
       All your employees' details on a single screen. Hiring, firing, retiring - just a click away.</p>
-    <h2>CONTACT</h2>
+    </div>
+    <div id="contact">
+      <h2>CONTACT</h2>
     <address> Staff Inc.<br>
               Industrial Ave 201<br>
               1102 Down Town<br>
               Tel: 001 555 444 12<br>
               <a href="mailto:contact@staff.inc">contact@staff.inc</a>
     </address>
+    </div>
   </footer>
   </body>
 </html>
