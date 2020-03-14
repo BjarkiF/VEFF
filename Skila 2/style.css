@@ -1,0 +1,49 @@
+/* formattið er allt í rugli, hafði ekki tíma til að byrja frá grunni aftur */
+#board{
+    display: inline-grid;
+    grid-gap: 1em;
+}
+
+.boardCell{
+    height: 50px;
+    width: 50px;
+    display: inline;
+    background-color:darkgrey;
+    padding: 20px;
+    border: 1px solid black;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.cellEmpty{
+    background-color: ghostwhite;
+}
+
+.cellBomb{
+    background-color: red;
+    background-image: url("bomb.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+.cellFlag{
+    background-image: url("flag.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+.oneBomb{
+    color: blue;
+    font-weight: bold;
+  }
+
+.twoBomb{
+    color: darkgreen;
+  }
+
+.nBomb{
+    color: darkred;
+}
